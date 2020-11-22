@@ -26,18 +26,6 @@ const Image = () => {
     }
   `)
 
-  // query {
-  //   allContentfulCalaveraImages(sort: {}) {
-  //     edges {
-  //       node {
-  //         calaveraImages {
-  //           id
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }

@@ -26,6 +26,16 @@ const Header = ({}) => (
         >
           sara ward
         </Link>
+        {/* <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
+        </nav> */}
       </h2>
       <Link to="https://github.com/saracward">Github</Link>
       <Link to="https://www.instagram.com/calaveraatl/?hl=en">Instagram</Link>
