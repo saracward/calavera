@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <p>Lets talk</p>
+    {/* <p>Lets talk</p> */}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       {/* <Image /> */}
 
@@ -16,9 +16,45 @@ const IndexPage = ({ data }) => (
         <a key={image.node.id} img={image.node.calaveraImages}></a>
       ))} */}
     </div>
-    <Link to="/graphic-design/">Go to Graphic Design Page</Link> <br />
-    <Link to="/dev/">Go to Software Development Page</Link> <br />
-    <Link to="/calavera/">Go to Calavera Page</Link> <br />
+    <Link
+      to="/calavera/"
+      style={{
+        color: `black`,
+        fontSize: `3rem`,
+        textDecoration: `none`,
+        padding: `1rem`,
+      }}
+      className="calavera"
+    >
+      CALAVERA
+    </Link>{" "}
+    <br />
+    <Link
+      to="/graphic-design/"
+      style={{
+        color: `black`,
+        fontSize: `3rem`,
+        textDecoration: `none`,
+        padding: `1rem`,
+      }}
+      className="design"
+    >
+      DESIGN
+    </Link>{" "}
+    <br />
+    <Link
+      to="/dev/"
+      style={{
+        color: `black`,
+        fontSize: `3rem`,
+        textDecoration: `none`,
+        padding: `1rem`,
+      }}
+      className="dev"
+    >
+      DEV
+    </Link>{" "}
+    <br />
     {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
     <br />
   </Layout>

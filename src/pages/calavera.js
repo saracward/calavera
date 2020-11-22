@@ -20,7 +20,6 @@ const CalaveraPage = () => (
       one place, while you in return, can also help a local small business
       succeed.
     </p>
-    <Link to="/">close</Link>
   </Layout>
 )
 export const pageQuery = graphql`
