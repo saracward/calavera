@@ -21,7 +21,11 @@ const IndexPage = () => (
         }}
         className="calavera"
       >
-        <img src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2020/04/shelter-dog-cropped-1-632x329.jpg" />
+        <img
+          className="d-block w-100"
+          alt="First slide"
+          src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2020/04/shelter-dog-cropped-1-632x329.jpg"
+        />
         CALAVERA
       </Link>
     </Carousel.Item>
@@ -36,7 +40,10 @@ const IndexPage = () => (
         }}
         className="design"
       >
-        <img src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" />
+        <img
+          className="d-block w-100"
+          src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg"
+        />
         DESIGN
       </Link>
     </Carousel.Item>
@@ -51,7 +58,10 @@ const IndexPage = () => (
         }}
         className="dev"
       >
-        <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12231413/Labrador-Retriever-MP.jpg" />
+        <img
+          className="d-block w-100"
+          src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12231413/Labrador-Retriever-MP.jpg"
+        />
         DEV
       </Link>
     </Carousel.Item>
