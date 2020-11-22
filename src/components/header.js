@@ -38,13 +38,46 @@ const Header = ({}) => (
         </nav> */}
       </h2>
       <nav>
-        <Link to="https://github.com/saracward">Github</Link>
-        <Link to="https://www.instagram.com/calaveraatl/?hl=en">Instagram</Link>
-        <Link to="https://dev.to/saracward">Dev</Link>
+        <Link
+          to="https://github.com/saracward"
+          style={{
+            color: `black`,
+            textDecoration: `none`,
+          }}
+        >
+          Github
+        </Link>
+        <Link
+          to="https://www.instagram.com/calaveraatl/?hl=en"
+          style={{
+            color: `black`,
+            textDecoration: `none`,
+            padding: `.5rem`,
+          }}
+        >
+          Instagram
+        </Link>
+        <Link
+          to="https://dev.to/saracward"
+          style={{
+            color: `black`,
+            textDecoration: `none`,
+          }}
+        >
+          Dev
+        </Link>
       </nav>
 
       <div>
-        <Link to="/about/">About</Link>
+        <Link
+          to="/about/"
+          style={{
+            color: `black`,
+            textDecoration: `none`,
+          }}
+        >
+          About
+        </Link>
       </div>
     </div>
   </header>

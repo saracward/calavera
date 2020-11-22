@@ -20,6 +20,10 @@ const CalaveraPage = () => (
       one place, while you in return, can also help a local small business
       succeed.
     </p>
+
+    {/* {{data.allContentfulCalaveraImages.edges.map(image => (
+        <a key={image.node.id} img={image.node.calaveraImages}></a>
+      ))}} */}
   </Layout>
 )
 export const pageQuery = graphql`
