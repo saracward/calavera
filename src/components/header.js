@@ -64,7 +64,7 @@ const Header = ({}) => (
               textDecoration: `none`,
             }}
           >
-            About
+            <img src="https://i.ibb.co/6vkyTvv/me.png" />
           </Link>
         </Link>
       </nav>
