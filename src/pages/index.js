@@ -78,7 +78,10 @@ const IndexPage = () => (
           <div class="carousel-inner bg-info" role="listbox">
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <motion.button whileTap={{ scale: 1 }}>
+                <motion.button
+                  whileHover={{ scale: 1.7 }}
+                  whileTap={{ scale: 1.5 }}
+                >
                   <h1 class="display-1">hello world</h1>
                 </motion.button>
               </div>
