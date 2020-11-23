@@ -24,7 +24,7 @@ const CalaveraPage = props => {
         in one place, while you in return, can also help a local small business
         succeed.
       </p>
-      {props.data.allContentfulCalaveraImages.nodes[0].calaveraImages.map(
+      {props.data.allContentfulCalavera.nodes[0].calaveraImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
@@ -39,7 +39,7 @@ const CalaveraPage = props => {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allContentfulCalaveraImages {
+    allContentfulCalavera {
       nodes {
         calaveraImages {
           fluid(maxWidth: 900, quality: 100) {

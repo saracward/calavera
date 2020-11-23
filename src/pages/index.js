@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 // import { allContentfulCalaveraImages } from "@contentful/rich-text-react-renderer"
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import { Carousel } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
+import { motion } from "framer-motion"
 
 const IndexPage = () => (
   <Carousel>
@@ -24,13 +25,19 @@ const IndexPage = () => (
             <div class="carousel-item active">
               {/* <img src="https://i.ibb.co/pzCGZDn/1500x800.png" alt="Slide 1" /> */}
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <h1 class="display-1">calavera</h1>
+                <motion.button
+                  whileHover={{ scale: 1.7 }}
+                  whileTap={{ scale: 1.5 }}
+                >
+                  <h1 class="display-1">calavera</h1>
+                </motion.button>
               </div>
             </div>
           </div>
         </div>
       </Link>
     </Carousel.Item>
+
     <Carousel.Item>
       <Link
         to="/graphic-design/"
@@ -45,7 +52,12 @@ const IndexPage = () => (
           <div class="carousel-inner bg-info" role="listbox">
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <h1 class="display-1">design</h1>
+                <motion.button
+                  whileHover={{ scale: 1.7 }}
+                  whileTap={{ scale: 1.5 }}
+                >
+                  <h1 class="display-1">design</h1>
+                </motion.button>
               </div>
             </div>
           </div>
@@ -66,7 +78,9 @@ const IndexPage = () => (
           <div class="carousel-inner bg-info" role="listbox">
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <h1 class="display-1">dev</h1>
+                <motion.button whileTap={{ scale: 1 }}>
+                  <h1 class="display-1">hello world</h1>
+                </motion.button>
               </div>
             </div>
           </div>

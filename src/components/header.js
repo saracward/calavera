@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({}) => (
   <header
     style={{
-      background: `gold`,
+      background: `#18A2B8`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -68,19 +68,17 @@ const Header = ({}) => (
         </Link>
         <Link href="mailto:sara@gocalavera.com">
           <img src="https://i.ibb.co/jrmV14b/contact.png" />
+          <Link
+            to="/about/"
+            style={{
+              color: `black`,
+              textDecoration: `none`,
+            }}
+          >
+            About
+          </Link>
         </Link>
       </nav>
-      <div>
-        <Link
-          to="/about/"
-          style={{
-            color: `black`,
-            textDecoration: `none`,
-          }}
-        >
-          About
-        </Link>
-      </div>
     </div>
   </header>
 )
