@@ -26,7 +26,7 @@ const IndexPage = () => (
               {/* <img src="https://i.ibb.co/pzCGZDn/1500x800.png" alt="Slide 1" /> */}
               <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <motion.button
-                  whileHover={{ scale: 1.7 }}
+                  whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 >
                   <h1 class="display-1">calavera</h1>
@@ -53,7 +53,7 @@ const IndexPage = () => (
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <motion.button
-                  whileHover={{ scale: 1.7 }}
+                  whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 >
                   <h1 class="display-1">design</h1>
@@ -79,7 +79,7 @@ const IndexPage = () => (
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <motion.button
-                  whileHover={{ scale: 1.7 }}
+                  whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 >
                   <h1 class="display-1">hello world</h1>

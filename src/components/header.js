@@ -16,7 +16,7 @@ const Header = ({}) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h6 style={{ margin: 0 }}>
+      <nav>
         <Link
           to="/"
           style={{
@@ -24,20 +24,9 @@ const Header = ({}) => (
             textDecoration: `none`,
           }}
         >
-          sara ward
+          <img src="https://i.ibb.co/wJd9Dys/logo.png" />
         </Link>
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </nav> */}
-      </h6>
-      <nav>
+
         <Link
           to="https://github.com/saracward"
           style={{
