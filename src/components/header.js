@@ -16,7 +16,7 @@ const Header = ({}) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h2 style={{ margin: 0 }}>
+      <h6 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -36,7 +36,7 @@ const Header = ({}) => (
             </li>
           </ul>
         </nav> */}
-      </h2>
+      </h6>
       <nav>
         <Link
           to="https://github.com/saracward"
@@ -66,8 +66,10 @@ const Header = ({}) => (
         >
           <img src="https://i.ibb.co/N7PqBQx/dev.png" />
         </Link>
+        <Link href="mailto:sara@gocalavera.com">
+          <img src="https://i.ibb.co/jrmV14b/contact.png" />
+        </Link>
       </nav>
-
       <div>
         <Link
           to="/about/"
