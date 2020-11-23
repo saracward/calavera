@@ -45,7 +45,7 @@ const Header = ({}) => (
             textDecoration: `none`,
           }}
         >
-          Github
+          <img src="https://i.ibb.co/7vH24yT/github.png" />
         </Link>
         <Link
           to="https://www.instagram.com/calaveraatl/?hl=en"
@@ -55,7 +55,7 @@ const Header = ({}) => (
             padding: `.5rem`,
           }}
         >
-          Instagram
+          <img src="https://i.ibb.co/X3v7DgD/ig.png" />
         </Link>
         <Link
           to="https://dev.to/saracward"
@@ -64,7 +64,7 @@ const Header = ({}) => (
             textDecoration: `none`,
           }}
         >
-          Dev
+          <img src="https://i.ibb.co/N7PqBQx/dev.png" />
         </Link>
       </nav>
 
