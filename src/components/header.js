@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { motion } from "framer-motion"
 
 const Header = ({}) => (
   <header
@@ -17,15 +18,24 @@ const Header = ({}) => (
       }}
     >
       <nav>
-        <Link
-          to="/"
-          style={{
-            color: `black`,
-            textDecoration: `none`,
+        <motion.div
+          whileHover={{ scale: 0.5, rotate: 90 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: -90,
+            borderRadius: "100%",
           }}
         >
-          <img src="https://i.ibb.co/wJd9Dys/logo.png" />
-        </Link>
+          <Link
+            to="/"
+            style={{
+              color: `black`,
+              textDecoration: `none`,
+            }}
+          >
+            <img src="https://i.ibb.co/wJd9Dys/logo.png" />
+          </Link>
+        </motion.div>
 
         <Link
           to="https://github.com/saracward"
