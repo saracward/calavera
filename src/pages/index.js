@@ -29,7 +29,8 @@ const IndexPage = () => (
                   whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 >
-                  <h1 class="display-1">calavera</h1>
+                  <h3 class="display-1">la compañia</h3>
+                  <h5 style={{ opacity: `.3` }}>| calavera |</h5>
                 </motion.button>
               </div>
             </div>
@@ -56,7 +57,8 @@ const IndexPage = () => (
                   whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 >
-                  <h1 class="display-1">design</h1>
+                  <h1 class="display-1">oh, crop</h1>
+                  <h5 style={{ opacity: `.3` }}>| design |</h5>
                 </motion.button>
               </div>
             </div>
@@ -83,6 +85,7 @@ const IndexPage = () => (
                   whileTap={{ scale: 1.5 }}
                 >
                   <h1 class="display-1">hello world</h1>
+                  <h5 style={{ opacity: `.3` }}>| software development |</h5>
                 </motion.button>
               </div>
             </div>
