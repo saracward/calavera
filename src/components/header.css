@@ -3,5 +3,5 @@
 }
 
 .NavLink:hover {
-  filter: blur(1.2px);
+  filter: opacity(50%);
 }
