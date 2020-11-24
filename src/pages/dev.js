@@ -20,11 +20,11 @@ const DevPage = props => {
       <br />
       {/* <Link to="/">Go back to the homepage</Link> */}
 
-      {props.data.allContentfulSoftwareImages.edges[0].node.softwareDevImages.map(
+      {/* {props.data.allContentfulSoftwareImages.edges[0].node.softwareDevImages.map(
         (image, index) => (
           <Img fluid={image.fluid} key={image.id} />
         )
-      )}
+      )} */}
     </Layout>
   )
 }
