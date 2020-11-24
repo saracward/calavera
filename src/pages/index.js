@@ -1,12 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-// import { allContentfulCalaveraImages } from "@contentful/rich-text-react-renderer"
-// import Layout from "../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
 import { Carousel } from "react-bootstrap"
+import styles from "./index.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 const IndexPage = () => (
   <Carousel>
@@ -20,18 +19,18 @@ const IndexPage = () => (
         }}
         className="calavera"
       >
-        <div class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner bg-info" role="listbox">
-            <div class="carousel-item active">
+        <div className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner bg-info" role="listbox">
+            <div className="carousel-item active">
               {/* <img src="https://i.ibb.co/pzCGZDn/1500x800.png" alt="Slide 1" /> */}
-              <div class="d-flex align-items-center justify-content-center min-vh-100">
+              <div className="d-flex align-items-center justify-content-center min-vh-100">
                 {/* <motion.button
                   whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 > */}
-                <div>
+                <div className="typewriter">
                   <center>
-                    <h3 class="display-1">la compañia</h3>
+                    <h1 className="typewriter-text">la compañia</h1>
                     <h5 style={{ opacity: `.3` }}>| calavera |</h5>
                   </center>
                 </div>
@@ -53,17 +52,17 @@ const IndexPage = () => (
         }}
         className="design"
       >
-        <div class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner bg-info" role="listbox">
-            <div class="carousel-item active">
-              <div class="d-flex align-items-center justify-content-center min-vh-100">
+        <div className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner bg-info" role="listbox">
+            <div className="carousel-item active">
+              <div className="d-flex align-items-center justify-content-center min-vh-100">
                 {/* <motion.button
                   whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
                 > */}
                 <div>
                   <center>
-                    <h3 class="display-1">oh, crop</h3>
+                    <h1 className="typewriter-text">oh, crop</h1>
                     <h5 style={{ opacity: `.3` }}>| design |</h5>
                     {/* </motion.button> */}
                   </center>
@@ -84,13 +83,15 @@ const IndexPage = () => (
         }}
         className="dev"
       >
-        <div class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner bg-info" role="listbox">
-            <div class="carousel-item active">
-              <div class="d-flex align-items-center justify-content-center min-vh-100">
+        <div className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner bg-info" role="listbox">
+            <div className="carousel-item active">
+              <div className="d-flex align-items-center justify-content-center min-vh-100">
                 <div>
-                  <h3 class="display-1">hello world</h3>
-                  <h5 style={{ opacity: `.3` }}>| software development |</h5>
+                  <center>
+                    <h1 className="typewriter-text">hello world</h1>
+                    <h5 style={{ opacity: `.3` }}>| software development |</h5>
+                  </center>
                 </div>
               </div>
             </div>

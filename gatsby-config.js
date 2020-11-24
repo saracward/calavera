@@ -11,6 +11,23 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto Mono`,
+    //         variants: [`400`, `700`],
+    //       },
+    //       {
+    //         family: `Roboto`,
+    //         subsets: [`latin`],
+    //       },
+    //       {
+    //         family: `Impact`,
+    //       },
+    //     ],
+    //   },
     `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-source-filesystem`,

@@ -7,13 +7,13 @@ const Header = ({}) => (
   <header
     style={{
       background: `#18A2B8`,
-      marginBottom: `1.45rem`,
+      marginBottom: `1rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 900,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -80,7 +80,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `saraward`,
 }
 
 export default Header
