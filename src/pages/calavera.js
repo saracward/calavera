@@ -1,7 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 import Img from "gatsby-image"
-import { Frame, Scroll } from "framer"
+// import { Frame, Scroll } from "framer"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
