@@ -6,8 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const CalaveraPage = props => {
-  const bio =
-    props.data.allContentfulCalavera.edges[0].node.calaveraBio.calaveraBio
+  const bio = props.data.allContentfulCalavera.nodes[0].calaveraBio.calaveraBio
   console.log(props)
   return (
     <Layout>
@@ -36,7 +35,7 @@ const CalaveraPage = props => {
         succeed.
       </p> */}
 
-      {props.data.allContentfulCalavera.edges[0].node.calaveraImages.map(
+      {props.data.allContentfulCalavera.nodes[0].calaveraImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
@@ -48,15 +47,13 @@ const CalaveraPage = props => {
 export const pageQuery = graphql`
   query IndexQuery {
     allContentfulCalavera {
-      edges {
-        node {
-          calaveraBio {
-            calaveraBio
-          }
-          calaveraImages {
-            fluid(maxWidth: 900, quality: 100) {
-              ...GatsbyContentfulFluid
-            }
+      nodes {
+        calaveraBio {
+          calaveraBio
+        }
+        calaveraImages {
+          fluid(maxWidth: 900, quality: 100) {
+            ...GatsbyContentfulFluid
           }
         }
       }
