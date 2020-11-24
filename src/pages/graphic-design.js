@@ -6,8 +6,7 @@ import SEO from "../components/seo"
 
 const DesignPage = props => {
   const designBio =
-    props.data.allContentfulGraphicImageDesignBioTextNode.edges[0].node
-      .designBio
+    props.data.allContentfulGraphicImage.edges[0].node.designBio.designBio
   console.log(props)
   return (
     <Layout>
@@ -17,7 +16,7 @@ const DesignPage = props => {
       </h1>
       {designBio}
 
-      {props.data.allContentfulGraphicImage.edges[0].node.graphicDesignImages.map(
+      {props.data.allContentfulGraphicImage.edges[1].node.graphicDesignImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
@@ -28,16 +27,12 @@ const DesignPage = props => {
 
 export const DesignPageQuery = graphql`
   query DesignPageQuery {
-    allContentfulGraphicImageDesignBioTextNode {
-      edges {
-        node {
-          designBio
-        }
-      }
-    }
     allContentfulGraphicImage {
       edges {
         node {
+          designBio {
+            designBio
+          }
           graphicDesignImages {
             fluid(maxWidth: 900, quality: 100) {
               ...GatsbyContentfulFluid
