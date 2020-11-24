@@ -20,8 +20,12 @@ const AboutPage = props => {
           I'm a <span id="spin"></span>
         </h1>
       </center>
-      <br />
-      <br />
+      <img
+        width="100%"
+        height="100%"
+        src="https://i.ibb.co/wsLfJZx/Calavera-v3.png"
+      />
+
       {aboutMe}
       <Link
         to="/"

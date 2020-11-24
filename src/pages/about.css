@@ -1,5 +1,5 @@
-aboutMe {
-  background: black;
+.aboutMe {
+  display: flex;
 }
 
 #spin {

@@ -39,12 +39,12 @@ const CalaveraPage = props => {
         in one place, while you in return, can also help a local small business
         succeed.
       </p> */}
-
       {props.data.allContentfulCalavera.nodes[0].calaveraImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
       )}
+      back to the top
     </Layout>
   )
 }
