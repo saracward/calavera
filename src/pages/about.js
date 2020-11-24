@@ -9,9 +9,9 @@ const AboutPage = () => (
     <br />
     <SEO title="Graphic design" />
     <center>
-      <h1>
+      <h3>
         I'm a <span id="spin"></span>
-      </h1>
+      </h3>
     </center>
     <br />
     <p>

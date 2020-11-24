@@ -10,6 +10,7 @@ const CalaveraPage = props => {
   return (
     <Layout>
       <SEO title="Calavera Page" />
+
       <h1>
         <center>Que es Calavera?</center>
       </h1>
