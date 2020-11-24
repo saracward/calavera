@@ -6,12 +6,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const CalaveraPage = props => {
+  const bio =
+    props.data.allContentfulCalavera.edges[0].node.calaveraBio.calaveraBio
   console.log(props)
   return (
     <Layout>
-      <SEO title="Calavera Page" />
-
       <h1>
+        <center>Que es Calavera?</center>
+      </h1>
+      <br />
+      <SEO title="Calavera Page" />
+      {bio}
+
+      {/* <h1>
         <center>Que es Calavera?</center>
       </h1>
       <br />
@@ -19,7 +26,7 @@ const CalaveraPage = props => {
         Calavera is a graphic design and software development company based out
         of Atlanta, Ga. It is a company that cultivates innovative content, and
         wants to develop websites and give exposure to local mom-and-pop shops.
-        Wether that may be a restaurant, shoppe, growing clothing company..
+        Whether that may be a restaurant, shoppe, or growing clothing company..
         <br />
         Calavera wants to be a part of your glow up.
         <br />
@@ -27,16 +34,13 @@ const CalaveraPage = props => {
         Calavera can make your logo, signage, branding, website, and more. All
         in one place, while you in return, can also help a local small business
         succeed.
-      </p>
+      </p> */}
 
-      {props.data.allContentfulCalavera.nodes[0].calaveraImages.map(
+      {props.data.allContentfulCalavera.edges[0].node.calaveraImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
       )}
-      {/* {{data.allContentfulCalaveraImages.edges.map(image => (
-        <a key={image.node.id} img={image.node.calaveraImages}></a>
-      ))}} */}
     </Layout>
   )
 }
@@ -44,10 +48,15 @@ const CalaveraPage = props => {
 export const pageQuery = graphql`
   query IndexQuery {
     allContentfulCalavera {
-      nodes {
-        calaveraImages {
-          fluid(maxWidth: 800, quality: 100) {
-            ...GatsbyContentfulFluid
+      edges {
+        node {
+          calaveraBio {
+            calaveraBio
+          }
+          calaveraImages {
+            fluid(maxWidth: 900, quality: 100) {
+              ...GatsbyContentfulFluid
+            }
           }
         }
       }

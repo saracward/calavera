@@ -9,8 +9,7 @@ const DevPage = props => {
   return (
     <Layout>
       <SEO title="Graphic design" />
-      <h1>Hi from the Dev page</h1>
-      <p>words</p>
+
       {/* <Link to="/">Go back to the homepage</Link> */}
 
       {props.data.allContentfulSoftwareImages.edges[0].node.softwareDevImages.map(
