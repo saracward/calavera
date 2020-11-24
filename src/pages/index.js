@@ -25,13 +25,17 @@ const IndexPage = () => (
             <div class="carousel-item active">
               {/* <img src="https://i.ibb.co/pzCGZDn/1500x800.png" alt="Slide 1" /> */}
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <motion.button
+                {/* <motion.button
                   whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
-                >
-                  <h3 class="display-1">la compañia</h3>
-                  <h5 style={{ opacity: `.3` }}>| calavera |</h5>
-                </motion.button>
+                > */}
+                <div>
+                  <center>
+                    <h3 class="display-1">la compañia</h3>
+                    <h5 style={{ opacity: `.3` }}>| calavera |</h5>
+                  </center>
+                </div>
+                {/* </motion.button> */}
               </div>
             </div>
           </div>
@@ -53,13 +57,18 @@ const IndexPage = () => (
           <div class="carousel-inner bg-info" role="listbox">
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <motion.button
+                {/* <motion.button
                   whileHover={{ scale: 1 }}
                   whileTap={{ scale: 1.5 }}
-                >
-                  <h1 class="display-1">oh, crop</h1>
-                  <h5 style={{ opacity: `.3` }}>| design |</h5>
-                </motion.button>
+                > */}
+                <div>
+                  <center>
+                    <h3 class="display-1">oh, crop</h3>
+                    <br />
+                    <h5 style={{ opacity: `.3` }}>| design |</h5>
+                    {/* </motion.button> */}
+                  </center>
+                </div>
               </div>
             </div>
           </div>
@@ -80,13 +89,15 @@ const IndexPage = () => (
           <div class="carousel-inner bg-info" role="listbox">
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <motion.button
-                  whileHover={{ scale: 1 }}
-                  whileTap={{ scale: 1.5 }}
-                >
-                  <h1 class="display-1">hello world</h1>
-                  <h5 style={{ opacity: `.3` }}>| software development |</h5>
-                </motion.button>
+                <div>
+                  <motion.button
+                    whileHover={{ scale: 1 }}
+                    whileTap={{ scale: 1.5 }}
+                  >
+                    <h3 class="display-1">hello world</h3>
+                    <h5 style={{ opacity: `.3` }}>| software development |</h5>
+                  </motion.button>
+                </div>
               </div>
             </div>
           </div>
