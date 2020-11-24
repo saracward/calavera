@@ -1,0 +1,7 @@
+.NavLink {
+  padding: 0px 35px 0 35px;
+}
+
+.NavLink:hover {
+  filter: blur(1.2px);
+}

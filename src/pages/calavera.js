@@ -1,7 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 import Img from "gatsby-image"
-
+import { Frame, Scroll } from "framer"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -24,12 +24,12 @@ const CalaveraPage = props => {
         in one place, while you in return, can also help a local small business
         succeed.
       </p>
+
       {props.data.allContentfulCalavera.nodes[0].calaveraImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
       )}
-
       {/* {{data.allContentfulCalaveraImages.edges.map(image => (
         <a key={image.node.id} img={image.node.calaveraImages}></a>
       ))}} */}

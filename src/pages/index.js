@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 // import Image from "../components/image"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 import { Carousel } from "react-bootstrap"
 import styles from "./index.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -19,6 +19,7 @@ const IndexPage = () => (
         }}
         className="calavera"
       >
+        <SEO title="Calavera ATL LLC" />
         <div className="carousel slide" data-ride="carousel">
           <div className="carousel-inner bg-info" role="listbox">
             <div className="carousel-item active">
