@@ -10,7 +10,10 @@ const CalaveraPage = props => {
   return (
     <Layout>
       <SEO title="Calavera Page" />
-      <h1>Hi from the Calavera page</h1>
+      <h1>
+        <center>Que es Calavera?</center>
+      </h1>
+      <br />
       <p>
         Calavera is a graphic design and software development company based out
         of Atlanta, Ga. It is a company that cultivates innovative content, and

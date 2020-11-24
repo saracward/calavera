@@ -1,0 +1,25 @@
+#spin {
+  color: #18a2b8;
+  font-style: italic;
+}
+#spin:after {
+  content: "";
+  animation: spin 10s infinite;
+}
+@keyframes spin {
+  0% {
+    content: "dog mom";
+  }
+  25% {
+    content: "creative";
+  }
+  50% {
+    content: "amateur chef";
+  }
+  75% {
+    content: "coffee addict";
+  }
+  100% {
+    content: "music enthusiast";
+  }
+}

@@ -2,28 +2,40 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styles from "./about.css"
 
 const AboutPage = () => (
   <Layout>
     <br />
     <SEO title="Graphic design" />
     <center>
-      <small>hello</small>
+      <h1>
+        I'm a <span id="spin"></span>
+      </h1>
     </center>
     <br />
-    <h2>
-      I'm a graphic designer turned software developer, living in Atlanta, Ga.{" "}
-    </h2>
     <p>
-      I pay attention to the finest of details and aim to anticipates clients
+      I'm a graphic designer turned software developer, living in Atlanta, Ga.{" "}
+    </p>
+    <p>
+      I pay attention to the finest of details and aim to anticipate clients
       needs and design wants. I also am a mother to the cutest fur baby on the
-      planet.
+      planet, Dia.
     </p>
     <p>
       If you're interested in working together, reach out at
       sara@gocalavera.com. I'd love to learn more about your project.{" "}
     </p>
-    <Link to="/">close</Link>
+    <Link
+      to="/"
+      style={{
+        color: `#18a2b8`,
+        textDecoration: `none`,
+        textAlign: `right`,
+      }}
+    >
+      exit stage right
+    </Link>
   </Layout>
 )
 
