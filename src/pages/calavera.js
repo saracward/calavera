@@ -54,9 +54,8 @@ export const pageQuery = graphql`
             calaveraBio
           }
           calaveraImages {
-            fluid(maxWidth: 900, quality: 100) {
-              ...GatsbyContentfulFluid
-            }
+            push
+            ro
           }
         }
       }
