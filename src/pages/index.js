@@ -64,7 +64,6 @@ const IndexPage = () => (
                 <div>
                   <center>
                     <h3 class="display-1">oh, crop</h3>
-                    <br />
                     <h5 style={{ opacity: `.3` }}>| design |</h5>
                     {/* </motion.button> */}
                   </center>
@@ -90,13 +89,8 @@ const IndexPage = () => (
             <div class="carousel-item active">
               <div class="d-flex align-items-center justify-content-center min-vh-100">
                 <div>
-                  <motion.button
-                    whileHover={{ scale: 1 }}
-                    whileTap={{ scale: 1.5 }}
-                  >
-                    <h3 class="display-1">hello world</h3>
-                    <h5 style={{ opacity: `.3` }}>| software development |</h5>
-                  </motion.button>
+                  <h3 class="display-1">hello world</h3>
+                  <h5 style={{ opacity: `.3` }}>| software development |</h5>
                 </div>
               </div>
             </div>
