@@ -13,11 +13,14 @@ const AboutPage = props => {
     <Layout>
       <br />
       <SEO title="Graphic design" />
+      <br />
+      <br />
       <center>
-        <h3>
+        <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
           I'm a <span id="spin"></span>
-        </h3>
+        </h1>
       </center>
+      <br />
       <br />
       {aboutMe}
       <Link

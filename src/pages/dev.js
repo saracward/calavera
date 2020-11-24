@@ -12,10 +12,16 @@ const DevPage = props => {
   return (
     <Layout>
       <SEO title="Graphic design" />
-      <h1>
+      <br />
+      <br />
+      <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
         <center>Full Stack Development</center>
       </h1>
+      <br />
+      <br />
       {devBio}
+      <br />
+      <br />
       <br />
       <br />
       {/* <Link to="/">Go back to the homepage</Link> */}

@@ -11,10 +11,17 @@ const DesignPage = props => {
   return (
     <Layout>
       <SEO title="Graphic design" />
-      <h1>
+      <br />
+      <br />
+      <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
         <center>Let's get creative</center>
       </h1>
+      <br />
+      <br />
       {designBio}
+      <br />
+      <br />
+      <br />
 
       {props.data.allContentfulGraphicImage.edges[1].node.graphicDesignImages.map(
         (image, index) => (

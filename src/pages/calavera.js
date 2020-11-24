@@ -10,13 +10,18 @@ const CalaveraPage = props => {
   console.log(props)
   return (
     <Layout>
-      <h1>
+      <br />
+      <br />
+      <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
         <center>Que es Calavera?</center>
       </h1>
       <br />
       <SEO title="Calavera Page" />
+      <br />
       {bio}
-
+      <br />
+      <br />
+      <br />
       {/* <h1>
         <center>Que es Calavera?</center>
       </h1>
