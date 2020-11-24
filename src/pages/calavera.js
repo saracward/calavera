@@ -42,7 +42,7 @@ export const pageQuery = graphql`
     allContentfulCalavera {
       nodes {
         calaveraImages {
-          fluid(maxWidth: 900, quality: 100) {
+          fluid(maxWidth: 800, quality: 100) {
             ...GatsbyContentfulFluid
           }
         }
