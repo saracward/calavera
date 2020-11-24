@@ -15,7 +15,7 @@
     "dotenv": "^8.2.0",
     "framer": "^1.2.10",
     "framer-motion": "^2.9.4",
-    "gatsby": "^2.27.1",
+    "gatsby": "^2.27.2",
     "gatsby-image": "^2.6.0",
     "gatsby-plugin-manifest": "^2.7.0",
     "gatsby-plugin-offline": "^3.5.0",
