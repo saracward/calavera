@@ -2,6 +2,10 @@
   display: flex;
 }
 
+img:hover {
+  filter: blur(50%);
+}
+
 #spin {
   color: #18a2b8;
   font-style: italic;

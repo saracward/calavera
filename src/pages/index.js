@@ -32,7 +32,15 @@ const IndexPage = () => (
                 <div className="typewriter">
                   <center>
                     <h1 className="typewriter-text">la compañia</h1>
-                    <h5 style={{ opacity: `.3` }}>| calavera |</h5>
+                    <h5
+                      style={{
+                        opacity: `.4`,
+                        color: `white`,
+                        letterSpacing: `3px`,
+                      }}
+                    >
+                      | calavera |
+                    </h5>
                   </center>
                 </div>
                 {/* </motion.button> */}
@@ -64,7 +72,15 @@ const IndexPage = () => (
                 <div>
                   <center>
                     <h1 className="typewriter-text">oh, crop</h1>
-                    <h5 style={{ opacity: `.3` }}>| design |</h5>
+                    <h5
+                      style={{
+                        opacity: `.4`,
+                        color: `white`,
+                        letterSpacing: `3px`,
+                      }}
+                    >
+                      | design |
+                    </h5>
                     {/* </motion.button> */}
                   </center>
                 </div>
@@ -91,7 +107,15 @@ const IndexPage = () => (
                 <div>
                   <center>
                     <h1 className="typewriter-text">hello world</h1>
-                    <h5 style={{ opacity: `.3` }}>| software development |</h5>
+                    <h5
+                      style={{
+                        opacity: `.4`,
+                        color: `white`,
+                        letterSpacing: `3px`,
+                      }}
+                    >
+                      | software development |
+                    </h5>
                   </center>
                 </div>
               </div>
