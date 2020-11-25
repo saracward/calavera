@@ -22,8 +22,7 @@ const DesignPage = props => {
       <br />
       <br />
       <br />
-
-      {props.data.allContentfulGraphicImage.edges[1].node.graphicDesignImages.map(
+      {props.data.allContentfulGraphicImage.edges[0].node.graphicDesignImages.map(
         (image, index) => (
           <Img fluid={image.fluid} />
         )
@@ -37,13 +36,13 @@ export const DesignPageQuery = graphql`
     allContentfulGraphicImage {
       edges {
         node {
-          designBio {
-            designBio
-          }
           graphicDesignImages {
             fluid(maxWidth: 900, quality: 100) {
               ...GatsbyContentfulFluid
             }
+          }
+          designBio {
+            designBio
           }
         }
       }
