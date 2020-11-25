@@ -19,8 +19,7 @@ const DesignPage = props => {
       <br />
       <br />
       {designBio}
-      <br />
-      <br />
+
       <br />
       {props.data.allContentfulGraphicImage.edges[0].node.graphicDesignImages.map(
         (image, index) => (

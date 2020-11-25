@@ -44,7 +44,6 @@ const CalaveraPage = props => {
           <Img fluid={image.fluid} />
         )
       )}
-      back to the top
     </Layout>
   )
 }
