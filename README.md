@@ -24,23 +24,26 @@ code snippet
 
 |       To Do's       | Projected Time | Actual Time |
 | :-----------------: | :------------: | :---------: |
-|  List of Projects   |      3 HR      |             |
-| Logo Implementation |      2 HR      |             |
-|   Contentful API    |      6 HR      |             |
-|  Images for Design  |      4 HR      |             |
-|   Images for Dev    |      4 HR      |             |
-|    Motion Framer    |     12 HR      |             |
+|  List of Projects   |      3 HR      |    6 HR     |
+| Logo Implementation |      2 HR      |    3 HR     |
+|   Contentful API    |      6 HR      |    12 HR    |
+|  Images for Design  |      4 HR      |    1 HR     |
+|   Images for Dev    |      4 HR      |    1 HR     |
+|    Motion Framer    |     12 HR      |    4 HR     |
 
-Total:
+Total: 27 Hours
 
 # Post MVP's
 
-|         To Do's          | Time | Actual Time |
-| :----------------------: | :--: | :---------: |
-| Email, Github, DEV links | 6 HR |             |
-|     Carousel Effect      | 5 HR |             |
-
-Total:
+|         To Do's          | Time  | Actual Time |
+| :----------------------: | :---: | :---------: |
+| Email, Github, DEV links | 6 HR  |    5 HR     |
+|     Carousel Effect      | 5 HR  |    6 HR     |
+|          Footer          | 2 HR  |    2 HR     |
+|      Styling Images      | 2 HR  |    2 HR     |
+|    Typewriter effect     | 2 HR  |    2 HR     |
+  
+Total: 17 Hours
 
 # Grid
 
