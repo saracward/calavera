@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import style from "./graphic-design.css"
 
 const DesignPage = props => {
   const designBio =
@@ -14,7 +15,9 @@ const DesignPage = props => {
       <br />
       <br />
       <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
-        <center>Let's get creative</center>
+        <center>
+          <div className="dheader">Let's get creative</div>
+        </center>
       </h1>
       <br />
       <br />

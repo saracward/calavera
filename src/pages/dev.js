@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import style from "./dev.css"
 
 const DevPage = props => {
   const devBio =
@@ -15,7 +16,9 @@ const DevPage = props => {
       <br />
       <br />
       <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
-        <center>Full Stack Development</center>
+        <center>
+          <div className="devheader">Full Stack Development</div>
+        </center>
       </h1>
       <br />
       <br />

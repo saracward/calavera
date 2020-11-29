@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 // import { Frame, Scroll } from "framer"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import style from "./calavera.css"
 
 const CalaveraPage = props => {
   const bio = props.data.allContentfulCalavera.nodes[0].calaveraBio.calaveraBio
@@ -13,7 +14,9 @@ const CalaveraPage = props => {
       <br />
       <br />
       <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
-        <center>Que es Calavera?</center>
+        <center>
+          <div className="cheader">Que es Calavera?</div>
+        </center>
       </h1>
       <br />
       <SEO title="Calavera Page" />
