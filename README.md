@@ -12,7 +12,7 @@ Calavera can make your logo, signage, branding, website, and more. All in one pl
 
 ## Calavera Brand Colors
 
-![Calavera Brand Colors](https://i.ibb.co/dKdnNDV/Screen-Shot-2020-11-19-at-2-59-36-PM.png)
+![Calavera Brand Colors](https://i.ibb.co/vZxbQmf/Screen-Shot-2020-11-29-at-5-38-47-PM.png)
 
 # API
 
