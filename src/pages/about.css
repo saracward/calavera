@@ -31,3 +31,9 @@ img:hover {
     content: "music enthusiast";
   }
 }
+
+@media only screen and (max-width: 480px) {
+  div.aboutHeader {
+    font-size: 50px;
+  }
+}

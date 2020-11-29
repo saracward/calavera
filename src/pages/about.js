@@ -16,9 +16,11 @@ const AboutPage = props => {
       <br />
       <br />
       <center>
-        <h1 style={{ color: `#18A2B8`, fontSize: `100px` }}>
-          I'm a <span id="spin"></span>
-        </h1>
+        <div style={{ color: `#18A2B8`, fontSize: `100px` }}>
+          <div className="aboutHeader">
+            I'm a <span id="spin"></span>
+          </div>
+        </div>
       </center>
       <img
         width="100%"
